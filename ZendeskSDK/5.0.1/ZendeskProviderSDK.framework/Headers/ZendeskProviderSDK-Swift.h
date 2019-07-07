@@ -495,11 +495,6 @@ SWIFT_CLASS("_TtC18ZendeskProviderSDK30ZDKTicketFormsSettingsProvider")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-@interface ZDKZendesk (SWIFT_EXTENSION(ZendeskProviderSDK))
-@property (nonatomic, readonly, copy) NSString * _Nonnull zendeskUrl;
-@end
-
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
