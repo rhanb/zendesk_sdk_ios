@@ -36,7 +36,7 @@
 #if MODULES_DISABLED
 #import <ZendeskProviderSDK/ZendeskProviderSDK.h>
 #else
-@import ZendeskProviderSDK;
+#import <ZendeskProviderSDK/ZendeskProviderSDK.h>
 #endif
 
 #endif
